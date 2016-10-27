@@ -15,11 +15,8 @@ namespace AmbiguousReferenceTest.ANamespace
 
 		public void SomeLongMethod(int var1, string var2, int var3)
 		{
-			var c = new ClassC();
-			c.DoThingC();
-
-			var b = new ClassB();
-			b.DoSomethingB();
+			var breakout = new BreakoutMethodClass(var1, var2, var3);
+			breakout.Run();
 		}
 	}
 }

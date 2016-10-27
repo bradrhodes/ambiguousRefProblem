@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ANamespace\BreakoutMethodClass.cs" />
     <Compile Include="ANamespace\ClassA.cs" />
     <Compile Include="BaseClassB.cs" />
     <Compile Include="BNamespace\ClassB.cs" />
