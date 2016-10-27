@@ -1,4 +1,5 @@
 ﻿using AmbiguousReferenceTest.CNamespace;
+using ClassB = AmbiguousReferenceTest.BNamespace.ClassB;
 
 namespace AmbiguousReferenceTest.ANamespace
 {
